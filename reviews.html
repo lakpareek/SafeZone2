@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Review System</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Online Review System</h1>
+
+    <form id="reviewForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="rating">Rating:</label>
+        <select id="rating" required>
+            <option value="5">5 Stars</option>
+            <option value="4">4 Stars</option>
+            <option value="3">3 Stars</option>
+            <option value="2">2 Stars</option>
+            <option value="1">1 Star</option>
+        </select>
+
+        <label for="comment">Comment:</label>
+        <textarea id="comment" required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <div id="reviewsContainer"></div>
+
+    <script src="practice.js"></script>
+</body>
+</html>

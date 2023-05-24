@@ -1,0 +1,53 @@
+
+
+  .container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img {
+    position: relative;
+    height: 60%;
+    width: 60%;
+    top: 60px;
+    left: 90px;
+}
+.heading{
+    position: relative;
+    top: -50px;
+    z-index: 1;
+
+}
+.circle{
+    background-color: yellow;
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+   
+}
+
+.logo-img {
+    width: 100px;
+    height: 100px;
+  }
+img:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.btn{
+    z-index: -8;
+}
+.heading{
+    text-align: center;
+}
+
+.logo-img {
+    width: 100px;
+    height: 100px;
+  }
+
